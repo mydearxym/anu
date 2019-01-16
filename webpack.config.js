@@ -76,6 +76,7 @@ module.exports = {
         alias: {
             react: path.resolve(__dirname, './dist/React.js'),
             'react-dom': path.resolve(__dirname, './dist/React.js'),
+            'react-dom/server': path.resolve(__dirname, './dist/ReactDOMServer.js')
         }
     },
 };
